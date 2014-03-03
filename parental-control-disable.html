@@ -1,0 +1,183 @@
+﻿<!doctype html>
+
+
+<head>
+	<meta charset="utf-8">
+	<title>4oD - Recommends</title>
+	<!--
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="HandheldFriendly" content="True">
+	-->
+<!-- 
+	<meta name="MobileOptimized" content="480"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<!--
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/h/apple-touch-icon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/m/apple-touch-icon.png">
+	<link rel="apple-touch-icon-precomposed" href="img/l/apple-touch-icon-precomposed.png">
+	<link rel="shortcut icon" href="img/l/apple-touch-icon.png">
+-->
+	<!--<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<link rel="apple-touch-startup-image" href="img/l/splash.png">-->
+	<meta http-equiv="cleartype" content="on">
+	<link rel="stylesheet" href="css/style.css?v=1">
+	<!--<script src="js/libs/modernizr-custom.js"></script>-->
+</head>
+
+<body>
+<div id="container">
+<!-- <div id="container" style="width: 800px;"> -->
+	<header id="header" class="clearfix">
+		<div class="highlight clearfix">
+		
+			<a class="logo" href="#"><img src="img/resources/4oD.png" width="95" height="68" alt="4oD"></a>
+		
+			<div id="searchRegion" class="search clearfix">
+				
+					<img src="img/resources/smlLoader.png" width="38" height="37" alt="SmlLoader" />
+					
+					<div class="searchBox">
+						<label for="search">Search</label>
+						<input type="text" id="search" value="Search" />
+						<button id="clearSearch" value="Clear search" ></button>
+					</div>
+			</div>
+
+		</div>
+	</header>
+	<nav class="primary clearfix">
+		<ul class="clearfix">
+			<li class="recommends active"><a href="#">4oD Recommends</a></li>
+			<li class="catchUp"><a href="catch-up.html">Catch Up</a></li>
+			<li class="categories"><a href="categories.html">Categories</a></li>
+			<li class="a-z"><a href="a-z.html">A - Z</a></li>										
+		</ul>
+	</nav>
+	
+		<div id="main" role="main">
+						
+			
+			<!-- PIN Disable  -->			
+			
+			<section class="parentalControl">
+				
+				<h1 class="AZepisodesHeading">Parental Control</h1>
+				
+				<div class="pinMessage">
+					
+					<p>You have already set-up a PIN and will be prompted for it on all rated content. If you want to disable your PIN, or change the age rating for the PIN you have set-up, you will need to enter your current PIN below.</p>
+					
+				</div>
+				
+				
+				<form id="pinForm" action="#" class="disable">					
+				
+					<fieldset class="enterPin">
+						
+						<h2>Enter PIN to disable</h2>
+						
+						<div class="numberRow">
+							
+							<input type="number" max="9" min="0" />
+							<input type="number" max="9" min="0" />
+							<input type="number" max="9" min="0" />
+							<input type="number" max="9" min="0" />
+					
+							<input type="submit" value="Disable PIN" />
+							
+						</div>
+						
+						<div id="errorSpace">
+							<p class="pinError">Incorrect PIN entered</p>
+						</div>
+						
+						<p>Your PIN will be required in order to view rated content each time you log on to 4oD but only once per session. You'll have to enter your PIN for each programme you want to view, but you can watch as many episodes of that programme you like without being prompted for your PIN again (until you close your browser to end your session).</p>
+
+						<p>If you share your PIN with, or allow your PIN to be accessed by, anyone else and it is entered by them, then all content on 4oD will be accessible, including 18 rated content suitable only for adults. Please keep your PIN secure.</p>
+						
+							
+					</fieldset>
+					
+				</form>
+				
+				<div class="pinMessage">
+					
+					<h2>PIN protected content</h2>
+					
+					<p>Channel4.com provides access to content reflecting the broad range of Channel 4's programmes which may be unsuitable for younger viewers.</p>
+
+					<p>In order to help you control access to the content on Channel4.com from your computer, we have provided a PIN (Personal Identification Number) system. This will enable you to set a PIN to prevent anyone viewing the content you choose to restrict access to. You may find this helpful to ensure children and younger viewers in your household can only view content that is appropriate for them.</p>
+
+					<p>For more information about PIN Access, please read our Help Section.</p>
+
+					<p>Channel 4 is a member of the UK Council for Child Internet Safety.</p>
+					
+					<span class="ukccis">UKCCIS: UK Council for Child Internet Safety</span>
+					
+					<div class="backToTop clearfix">
+						<a id="topLink" href="#container"><span class="upChevron"></span>Back to top</a>
+					</div>
+					
+				</div>
+				
+			</section>
+			
+
+		
+
+			
+			
+		</div>
+		
+		<footer>
+		<nav class="footer clearfix">
+			<ul class="clearfix">
+				<li><a href="parental-control-enable.html">Parental Control</a></li>
+				<li><a href="#">Help &amp; Info</a></li>
+				<li><a href="#">channel4.com</a></li>						
+			</ul>	
+		</nav>
+		</footer>
+
+	</div> <!--! end of #container -->
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
+	<script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+	
+	<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+
+	
+	<!-- scripts concatenated and minified via ant build script -->
+	<script src="js/mylibs/helper.js"></script>
+	<!-- end concatenated and minified scripts-->
+	
+	<script>
+		MBP.scaleFix();
+/*
+yepnope({
+	test : Modernizr.mq('(min-width)'),
+	nope : ['js/libs/respond.min.js']
+});
+*/
+	</script>
+
+	<!-- <script src="https://getfirebug.com/firebug-lite.js"></script> -->
+	
+<!--
+	<script>
+		var _gaq=[["_setAccount","UA-XXXXX-X"],["_trackPageview"]];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+		g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+		s.parentNode.insertBefore(g,s)}(document,"script"));
+	</script>
+-->
+
+</body>
+</html>
